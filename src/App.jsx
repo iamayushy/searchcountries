@@ -1,13 +1,15 @@
 import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
+import { Card } from './Components/Card'
+import { Search } from './Components/Search'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Search/>
+      <Card/>
     </div>
   )
 }
